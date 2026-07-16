@@ -91,7 +91,7 @@ function StudentForm({ onStudentAdded }) {
         <div className="form-group">
           <label>Email</label>
           <input
-            type="text"
+            type="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
