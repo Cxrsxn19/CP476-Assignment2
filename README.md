@@ -1,31 +1,22 @@
-# CP476-Assignment2
-This repository contains the code for **CP476 Assignment 2 - Simple Student Registration Application**.
+# CP-476-B - Internet Computing – Assignment 02
+This repository contains the code for **Assignment 02 - Simple Student Registration Application**.
 
-## Project Status
-✅ XAMPP installed and configured
-✅ Apache and MySQL services running
-✅ phpMyAdmin connection verified
-✅ MySQL database created
-✅ Students table created
-✅ PHP backend tested successfully
-✅ React frontend built and connected to PHP backend
-✅ Registration form submits and inserts into database
-✅ Student Directory displays live data from database
-✅ Basic styling applied (cards, layout)
+This assignment is a full-stack development task based on the technologies learned in class. The goal is to create a simple student registration application for a small college. The application consists of a student registration page and a student directory page.
 
----
+### Group Members: 
+- Carson Yee
+- Aidan MacLeod
+- Adam Bondi
+- Janaki Patel
+- Evan Parisitto
 
 ## Database Setup
-
-### Database Name
-
+### Database Name: 
 college
-
-### Table
-
+### Table: 
 students
 
-### SQL Used
+### SQL CREATE Command Used
 ```sql
 CREATE TABLE students (
     studentID INT AUTO_INCREMENT PRIMARY KEY,
@@ -36,66 +27,47 @@ CREATE TABLE students (
 );
 ```
 
----
-
 ## Local Setup Instructions
-
 ### 1. Install XAMPP
-Install XAMPP and start the following services:
-- In your task search bar, type XAMPP and download it from https://www.apachefriends.org
-- Start **Apache**
-- Start **MySQL**
-
----
+Install XAMPP (from https://www.apachefriends.org) and start the following services:
+- **Apache**
+- **MySQL**
 
 ### 2. Create the Database
-Open:
-http://localhost/phpmyadmin
+- Open: http://localhost/phpmyadmin
+- Create a new database named: **college**
+- Then create the **students** table using the SQL command above.
 
-Create a new database named: 
-college
-
-Then create the **students** table using the SQL above.
-
----
-
-### 3. Place PHP Files
-Copy the backend PHP files into:
-Windows:  C:\xampp\htdocs\assignment2\
-macOS:    /Applications/XAMPP/xamppfiles/htdocs/assignment2/
-
-Required files:
-- register.php
-- students.php
-
----
-
-### 4. Configure Database Connection
-Update both `register.php` and `students.php` with your local MySQL credentials.
-
-Example:
-```php
-$host = "localhost";
-$db   = "college";
-$user = "root";
-$pass = "YOUR_LOCAL_MYSQL_PASSWORD";
+### 3. PHP File Location
+- Copy the backend PHP files into: C:\xampp\htdocs\assignment2\
+- Structure:
+ ```
+  htdocs/
+    assignment2/
+        register.php
+        students.php
 ```
 
-> **Important:** Every group member may have a different MySQL root password. Do **not** commit your personal password to GitHub.
+### 4. Configure Database Connection
+Update both `register.php` and `students.php` with your local MySQL credentials. For XAMPP, the local MySQL installation has no password. 
 
----
+If you have a password on your local MySQL installation, simply update it on your own machine.
 
-### 5. Test the Backend
-Open:
-http://localhost/assignment2/students.php
+_Example:_ 
+```php
+$host = "localhost";
+$db   = "college_data";
+$user = "root";
+$pass = "";
+```
 
-Expected results:
-- `[]` if the table is empty
-- JSON data if student records exist
+### 5. Test & Verify the Backend
+- Open: http://localhost/assignment2/students.php
+- Expected results:
+  - `[]` if the table is empty
+  - JSON data if student records exist
 
-A test student was successfully inserted and retrieved, confirming the database connection works correctly.
-
----
+Our team successfully inserted and retrieved a test student, confirming the database connection works correctly.
 
 ### 6. Run the Frontend
 ```bash
@@ -103,29 +75,31 @@ cd frontend
 npm install
 npm run dev
 ```
+
 Visit the URL shown in your terminal (usually `http://localhost:5173/`).
 
-You should see:
-- A **Student Registration** form (First Name, Last Name, Email, Program)
-- A **Student Directory** table showing all registered students
-- Submitting the form adds a new student and updates the directory automatically
+Final Application Results:
+- Page 1: a **Student Registration** form (First Name, Last Name, Email, Program)
+- Page 2: a **Student Directory** table showing all registered students in the database
 
----
+Functionality: submitting the form adds a new student and automatically updates the directory.
 
-## Current Progress
-
-Completed:
-- Database connection established
-- PHP backend connected to MySQL
+## Project Status (for group members) 
+- XAMPP installed and configured
+- Apache and MySQL services running
+- phpMyAdmin backend connection verified to MySQL
+- MySQL database created and database connection established
+- _students_ table created
 - JSON output verified
+- PHP backend tested successfully
 - React frontend built (Header, Footer, StudentForm, StudentList)
-- Registration form validated and submitting successfully
-- Student Directory fetching and displaying live data
+- Frontend-backend connection confirmed
+- Registration form validated: submits and inserts into database successfully
+- Student Directory fetching and displaying live data from database
+- Basic styling applied (cards, layout)
 - End-to-end pipeline tested: React form → PHP → MySQL → React display
 
----
-
-## Next Steps as of July 15th 2026
+## Next Steps before submission.
 - [ ] Polish styling: confirm hover effects, card layout, and responsive design work on mobile
 - [ ] Add input placeholders / improve form UX where needed
 - [ ] Clean up unused leftover Vite files (App.css, unused index.css rules)
@@ -136,41 +110,14 @@ Completed:
 - [ ] Final review of all team members' pulled/tested branches
 - [ ] Package and submit as `TeamLeadLastname_Firstname_476_Assignment2.zip`
 
----
-
-## Notes for Group Members
-
-Before starting development:
-1. Clone the repository (or pull the latest changes if you've already cloned it).
-2. Create your own branch from `main`: (DO NOT PUSH TO MAIN)
+## Notes
+Before committing development changes:
+- Clone the repository (or pull the latest changes if you've already cloned it).
+- Create your own branch from `main` (DO NOT PUSH TO MAIN)
 ```bash
    git checkout main
    git pull origin main
    git checkout -b your-name-feature
 ```
-3. Install XAMPP.
-4. Start the **Apache** and **MySQL** services.
-5. Create the `college` database.
-6. Create the `students` table.
-7. Place the PHP files inside:
-Windows:  C:\xampp\htdocs\assignment2\
-macOS:    /Applications/XAMPP/xamppfiles/htdocs/assignment2/
-8. Update the MySQL password in `register.php` and `students.php` to match your local MySQL installation.
-9. Verify the backend by visiting:
-http://localhost/assignment2/students.php
-
-10. Run the frontend:
-```bash
-    cd frontend
-    npm install
-    npm run dev
-```
-11. Commit your work to your own branch and open a Pull Request when your feature is complete.
-
-If everything is configured correctly, the registration form should submit successfully and new students should appear immediately in the Student Directory table.
-
----
-
-## Repository
-Course: **CP476**
-Assignment: **Assignment 2 – Simple Student Registration Application**
+- Commit your work to your own branch and open a Pull Request when your feature is complete.
+- If everything is configured correctly, the registration form should submit successfully, and new students should appear immediately in the Student Directory table.
