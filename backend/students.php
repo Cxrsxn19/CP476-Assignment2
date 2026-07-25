@@ -3,7 +3,7 @@ header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
 $host = "localhost";
-$db = "college_data";
+$db = "college";
 $user = "root";
 $pass = "**"; // change this to your actual password
 
@@ -14,7 +14,7 @@ if ($conn->connect_error) {
     exit;
 }
 
-$result = $conn->query("SELECT studentID, firstName, lastName, email, program FROM students ORDER BY studentID DESC");
+$result = $conn->query("SELECT studentID, firstName, lastName, email, program FROM students ORDER BY studentID ASC");
 
 $students = [];
 while ($row = $result->fetch_assoc()) {

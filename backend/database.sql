@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS college_data;
-USE college_data;
+CREATE DATABASE IF NOT EXISTS college;
+USE college;
 
 CREATE TABLE IF NOT EXISTS students (
     studentID INT AUTO_INCREMENT PRIMARY KEY,
