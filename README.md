@@ -10,6 +10,8 @@ This assignment is a full-stack development task based on the technologies learn
 - Janaki Patel
 - Evan Parisitto
 
+GitHub contribution history is shown here: [Contributions](https://github.com/Cxrsxn19/CP476-Assignment2/graphs/contributors?from=4%2F25%2F2026). Full contributions, including screenshots, formatting, reflection, styling, etc., are shown here: [Contribution.pdf](https://github.com/Cxrsxn19/CP476-Assignment2/blob/aidan-fixes/contribution.pdf).
+
 ## Database Setup
 ### Database Name: 
 college
@@ -101,8 +103,8 @@ Functionality: submitting the form adds a new student and automatically updates 
 
 ## Next Steps before submission.
 - [ ] Polish styling: confirm hover effects, card layout, and responsive design work on mobile
-- [ ] Add input placeholders / improve form UX where needed
-- [ ] Clean up unused leftover Vite files (App.css, unused index.css rules)
+- [ ] Add input placeholders/improve form UX where needed
+- [ ] Clean up unused leftover/unused files
 - [ ] Clear out test data so student IDs are clean/sequential before final screenshots
 - [ ] Take required screenshots (desktop registration page, desktop student list, mobile registration page)
 - [ ] Write `reflection.pdf` (~200 words, 5 questions)
