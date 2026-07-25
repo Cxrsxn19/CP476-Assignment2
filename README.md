@@ -19,7 +19,7 @@ This repository contains the code for **CP476 Assignment 2 - Simple Student Regi
 
 ### Database Name
 
-college_data
+college
 
 ### Table
 
@@ -53,7 +53,7 @@ Open:
 http://localhost/phpmyadmin
 
 Create a new database named: 
-college_data
+college
 
 Then create the **students** table using the SQL above.
 
@@ -61,7 +61,8 @@ Then create the **students** table using the SQL above.
 
 ### 3. Place PHP Files
 Copy the backend PHP files into:
-C:\xampp\htdocs\assignment2\
+Windows:  C:\xampp\htdocs\assignment2\
+macOS:    /Applications/XAMPP/xamppfiles/htdocs/assignment2/
 
 Required files:
 - register.php
@@ -75,7 +76,7 @@ Update both `register.php` and `students.php` with your local MySQL credentials.
 Example:
 ```php
 $host = "localhost";
-$db   = "college_data";
+$db   = "college";
 $user = "root";
 $pass = "YOUR_LOCAL_MYSQL_PASSWORD";
 ```
@@ -149,10 +150,11 @@ Before starting development:
 ```
 3. Install XAMPP.
 4. Start the **Apache** and **MySQL** services.
-5. Create the `college_data` database.
+5. Create the `college` database.
 6. Create the `students` table.
 7. Place the PHP files inside:
-C:\xampp\htdocs\assignment2\
+Windows:  C:\xampp\htdocs\assignment2\
+macOS:    /Applications/XAMPP/xamppfiles/htdocs/assignment2/
 8. Update the MySQL password in `register.php` and `students.php` to match your local MySQL installation.
 9. Verify the backend by visiting:
 http://localhost/assignment2/students.php

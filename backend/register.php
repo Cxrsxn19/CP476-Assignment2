@@ -5,7 +5,7 @@ header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Allow-Headers: Content-Type");
 
 $host = "localhost";
-$db = "college_data";
+$db = "college";
 $user = "root";
 $pass = "**"; // change this to your actual password
 
