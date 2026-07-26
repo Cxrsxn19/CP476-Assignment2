@@ -29,7 +29,7 @@ CREATE TABLE students (
 );
 ```
 
-## Local Setup Instructions
+## Local Setup Instructions - Testing & Validation
 ### 1. Install XAMPP
 Install XAMPP (from https://www.apachefriends.org) and start the following services:
 - **Apache**
@@ -52,8 +52,6 @@ Install XAMPP (from https://www.apachefriends.org) and start the following servi
 
 ### 4. Configure Database Connection
 Update both `register.php` and `students.php` with your local MySQL credentials. For XAMPP, the local MySQL installation has no password. 
-
-If you have a password on your local MySQL installation, simply update it on your own machine.
 
 _Example:_ 
 ```php
@@ -81,8 +79,8 @@ npm run dev
 Visit the URL shown in your terminal (usually `http://localhost:5173/`).
 
 Final Application Results:
-- Page 1: a **Student Registration** form (First Name, Last Name, Email, Program)
-- Page 2: a **Student Directory** table showing all registered students in the database
+- Page 1 (LHS): a **Student Registration** form (First Name, Last Name, Email, Program)
+- Page 2 (RHS): a **Student Directory** table showing all registered students in the database
 
 Functionality: submitting the form adds a new student and automatically updates the directory.
 
@@ -90,7 +88,7 @@ Functionality: submitting the form adds a new student and automatically updates 
 - XAMPP installed and configured
 - Apache and MySQL services running
 - phpMyAdmin backend connection verified to MySQL
-- MySQL database created and database connection established
+- MySQL _college _database created and database connection established
 - _students_ table created
 - JSON output verified
 - PHP backend tested successfully
