@@ -4,7 +4,7 @@ This repository contains the code for **Assignment 02 - Simple Student Registrat
 This assignment is a full-stack development task based on the technologies learned in class. The goal is to create a simple student registration application for a small college. The application consists of a student registration page and a student directory page.
 
 ### Group Members: 
-- Carson Yee
+- Carson Yee (team lead)
 - Aidan MacLeod
 - Adam Bondi
 - Janaki Patel
