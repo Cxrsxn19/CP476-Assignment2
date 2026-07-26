@@ -10,7 +10,9 @@ This assignment is a full-stack development task based on the technologies learn
 - Janaki Patel
 - Evan Parisitto
 
-GitHub contribution history is shown here: [Contributions](https://github.com/Cxrsxn19/CP476-Assignment2/graphs/contributors?from=4%2F25%2F2026). Full contributions, including screenshots, architecture formatting, code development, reflection, styling, testing & validation, etc., are shown here: [contribution.pdf](https://github.com/Cxrsxn19/CP476-Assignment2/blob/main/contribution.pdf).
+GitHub contribution history is shown here: [Contributions](https://github.com/Cxrsxn19/CP476-Assignment2/graphs/contributors?from=4%2F25%2F2026). Full contributions, including screenshots, architecture formatting, code development, reflection, styling, testing & validation, etc., are shown here: [contribution.pdf](https://github.com/Cxrsxn19/CP476-Assignment2/blob/main/contribution.pdf). 
+
+Reflection questions discussing the assignment's workflow, technologies, and challenges can be found here: [Reflection](https://github.com/Cxrsxn19/CP476-Assignment2/blob/main/reflection.pdf). 
 
 ## Database Setup
 ### Database Name: 
@@ -107,7 +109,8 @@ Functionality: submitting the form adds a new student and automatically updates 
 - Completed final review of all team members' pulled/tested branches and file architecture & formatting
 
 ## Next Steps
-- Package and submit as `TeamLeadLastname_Firstname_476_Assignment2.zip`
+- Ensure all necessary files are included and saved in the correct format.
+- Package and submit as `TeamLeadLastname_Firstname_476_Assignment2.zip`.
 
 ## Notes
 Before committing development changes:
