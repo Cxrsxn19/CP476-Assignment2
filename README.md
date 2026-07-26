@@ -10,7 +10,7 @@ This assignment is a full-stack development task based on the technologies learn
 - Janaki Patel
 - Evan Parisitto
 
-GitHub contribution history is shown here: [Contributions](https://github.com/Cxrsxn19/CP476-Assignment2/graphs/contributors?from=4%2F25%2F2026). Full contributions, including screenshots, formatting, reflection, styling, etc., are shown here: [Contribution.pdf](https://github.com/Cxrsxn19/CP476-Assignment2/blob/main/Contribution.pdf).
+GitHub contribution history is shown here: [Contributions](https://github.com/Cxrsxn19/CP476-Assignment2/graphs/contributors?from=4%2F25%2F2026). Full contributions, including screenshots, architecture formatting, code development, reflection, styling, testing & validation, etc., are shown here: [contribution.pdf](https://github.com/Cxrsxn19/CP476-Assignment2/blob/main/contribution.pdf).
 
 ## Database Setup
 ### Database Name: 
@@ -98,19 +98,18 @@ Functionality: submitting the form adds a new student and automatically updates 
 - Frontend-backend connection confirmed
 - Registration form validated: submits and inserts into database successfully
 - Student Directory fetching and displaying live data from database
-- Basic styling applied (cards, layout)
+- Basic styling applied (cards, layout, input placeholders)
+- Polished styling: hover effects, card layout, and responsive design
+- Cleaned up leftover/unused files
+- Cleared out test data so student IDs are clean/sequential before final screenshots
 - End-to-end pipeline tested: React form → PHP → MySQL → React display
+- Took required screenshots (desktop registration page, desktop student list, mobile registration page)
+- Wrote `reflection.pdf` (~200 words, 5 questions)
+- Wrote `contribution.pdf` (equal contribution breakdown)
+- Completed final review of all team members' pulled/tested branches and file architecture & formatting
 
-## Next Steps before submission.
-- [ ] Polish styling: confirm hover effects, card layout, and responsive design work on mobile
-- [ ] Add input placeholders/improve form UX where needed
-- [ ] Clean up unused leftover/unused files
-- [ ] Clear out test data so student IDs are clean/sequential before final screenshots
-- [ ] Take required screenshots (desktop registration page, desktop student list, mobile registration page)
-- [ ] Write `reflection.pdf` (~200 words, 5 questions)
-- [ ] Write `contribution.pdf` (equal contribution breakdown)
-- [ ] Final review of all team members' pulled/tested branches
-- [ ] Package and submit as `TeamLeadLastname_Firstname_476_Assignment2.zip`
+## Next Steps
+- Package and submit as `TeamLeadLastname_Firstname_476_Assignment2.zip`
 
 ## Notes
 Before committing development changes:
