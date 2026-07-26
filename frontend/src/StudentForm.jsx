@@ -73,7 +73,7 @@ function StudentForm({ onStudentAdded }) {
             name="firstName"
             value={formData.firstName}
             onChange={handleChange}
-            placeholder="e.g. Jane"
+            placeholder="Jane"
           />
           {errors.firstName && <p className="error">{errors.firstName}</p>}
         </div>
@@ -85,7 +85,7 @@ function StudentForm({ onStudentAdded }) {
             name="lastName"
             value={formData.lastName}
             onChange={handleChange}
-            placeholder="e.g. Smith"
+            placeholder="Doe"
           />
           {errors.lastName && <p className="error">{errors.lastName}</p>}
         </div>
@@ -97,7 +97,7 @@ function StudentForm({ onStudentAdded }) {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            placeholder="e.g. janesmith####@mylaurier.ca"
+            placeholder="doe1234@mylaurier.ca"
           />
           {errors.email && <p className="error">{errors.email}</p>}
         </div>
@@ -109,7 +109,7 @@ function StudentForm({ onStudentAdded }) {
             name="program"
             value={formData.program}
             onChange={handleChange}
-            placeholder="e.g. Computer Science, Data Science"
+            placeholder="Computer Science"
           />
           {errors.program && <p className="error">{errors.program}</p>}
         </div>
