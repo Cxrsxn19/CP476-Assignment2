@@ -7,7 +7,7 @@ header("Access-Control-Allow-Headers: Content-Type");
 $host = "localhost";
 $db = "college";
 $user = "root";
-$pass = "**"; // change this to your actual password
+$pass = "";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
