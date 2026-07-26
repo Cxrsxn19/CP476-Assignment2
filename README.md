@@ -10,7 +10,7 @@ This assignment is a full-stack development task based on the technologies learn
 - Janaki Patel
 - Evan Parisitto
 
-GitHub contribution history is shown here: [Contributions](https://github.com/Cxrsxn19/CP476-Assignment2/graphs/contributors?from=4%2F25%2F2026). Full contributions, including screenshots, formatting, reflection, styling, etc., are shown here: [Contribution.pdf](https://github.com/Cxrsxn19/CP476-Assignment2/blob/aidan-fixes/contribution.pdf).
+GitHub contribution history is shown here: [Contributions](https://github.com/Cxrsxn19/CP476-Assignment2/graphs/contributors?from=4%2F25%2F2026). Full contributions, including screenshots, formatting, reflection, styling, etc., are shown here: [Contribution.pdf](https://github.com/Cxrsxn19/CP476-Assignment2/blob/main/Contribution.pdf).
 
 ## Database Setup
 ### Database Name: 
