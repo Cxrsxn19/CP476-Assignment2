@@ -39,7 +39,7 @@ Install XAMPP (from https://www.apachefriends.org) and start the following servi
 
 ### 2. Create the Database
 - Open: http://localhost/phpmyadmin
-- Create a new database named: **college**
+- Create a new database named: **college_data**
 - Then create the **students** table using the SQL command above.
 
 ### 3. PHP File Location
