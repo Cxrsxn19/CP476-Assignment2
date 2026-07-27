@@ -58,7 +58,7 @@ Update both `register.php` and `students.php` with your local MySQL credentials.
 _Example:_ 
 ```php
 $host = "localhost";
-$db   = "college";
+$db   = "college_data";
 $user = "root";
 $pass = "";
 ```
