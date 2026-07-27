@@ -16,7 +16,7 @@ Reflection questions discussing the assignment's workflow, technologies, and cha
 
 ## Database Setup
 ### Database Name: 
-college
+college_data
 ### Table: 
 students
 
