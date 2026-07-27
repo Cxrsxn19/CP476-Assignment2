@@ -90,7 +90,7 @@ Functionality: submitting the form adds a new student and automatically updates 
 - XAMPP installed and configured
 - Apache and MySQL services running
 - phpMyAdmin backend connection verified to MySQL
-- MySQL _college _database created and database connection established
+- MySQL _college_ database created and database connection established
 - _students_ table created
 - JSON output verified
 - PHP backend tested successfully
